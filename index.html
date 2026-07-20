@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="eo">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esperanto - La Internacia Lingvo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header & Navigation -->
+    <header class="navbar" id="navbar">
+        <div class="logo">
+            <span class="star-icon">★</span>
+            <span class="logo-text">Esperanto</span>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="a1_a2.html">A1-A2</a></li>
+                <li><a href="b1_b2.html">B1-B2</a></li>
+                <li><a href="c1_c2.html">C1-C2</a></li>
+                <li><a href="vortoj.html">Vortoj</a></li>
+            </ul>
+        </nav>
+        <button class="theme-toggle" id="themeToggle" aria-label="Ŝanĝi Etoson">
+            <span class="star-btn">★</span>
+        </button>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="hero-content fade-in">
+            <span class="badge">Unu Mondo, Unu Lingvo</span>
+            <h1>Lernu **Esperanton** kun Facileco</h1>
+            <p>La plej sukcesa internacia helplingvo en la mondo, kreita por fari pontojn inter popoloj kaj kulturoj.</p>
+            <div class="hero-buttons">
+                <a href="#gramatiko" class="btn btn-primary">Ekkonu la Gramatikon</a>
+                <a href="#pri" class="btn btn-secondary">Legu Plilongigite</a>
+            </div>
+        </div>
+        <div class="hero-graphic fade-in">
+            <div class="flag-card">
+                <div class="canton">
+                    <span class="green-star">★</span>
+                </div>
+                <div class="green-bg"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="pri" class="section">
+        <div class="container fade-in">
+            <h2 class="section-title">Kio estas Esperanto?</h2>
+            <div class="cards-grid">
+                <div class="card">
+                    <div class="card-icon">🌍</div>
+                    <h3>Neŭtrala</h3>
+                    <p>Ĝi apartenas al neniu lando aŭ politika potenco. Ĉiu uzanto estas sur egala nivelo.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">⚡</div>
+                    <h3>Rapida por Lerni</h3>
+                    <p>Pro sia perfekta reguleco, Esperanto estas lernebla 4-jare pli rapide ol aliaj lingvoj.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">🤝</div>
+                    <h3>Monda Komunumo</h3>
+                    <p>Militis kulturan reton da parolantoj en pli ol 120 landoj tra la tuta globo.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- History Section -->
+    <section id="historio" class="section alt-bg">
+        <div class="container fade-in">
+            <h2 class="section-title">Mallonga Historio</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot">★</div>
+                    <div class="timeline-content">
+                        <span class="year">1887</span>
+                        <h3>Unua Libro</h3>
+                        <p>Doktoro L. L. Zamenhof publikigis la unuan libron pri Esperanto en Varsovio sub la pseŭdonimo "Doktoro Esperanto".</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot">★</div>
+                    <div class="timeline-content">
+                        <span class="year">1905</span>
+                        <h3>Unua Universala Kongreso</h3>
+                        <p>La unua tutmonda kunveno okazis en Boulogne-sur-Mer, Francio, kie oni konfirmis la neŭtralecon de la lingvo.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot">★</div>
+                    <div class="timeline-content">
+                        <span class="year">Hodiaŭ</span>
+                        <h3>Digitala Epoko</h3>
+                        <p>Esperanto floras en la interreto per platformoj kiel Duolingo, Vikipedio, kaj sociaj retoj.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Grammar Section -->
+    <section id="gramatiko" class="section">
+        <div class="container fade-in">
+            <h2 class="section-title">Superrigardo de la Gramatiko</h2>
+            <p class="subtitle">Senescepte regula, tute logika kaj matematika.</p>
+
+            <div class="tabs">
+                <button class="tab-btn active" data-tab="finaĵoj">Vortfinaĵoj</button>
+                <button class="tab-btn" data-tab="verboj">Verboj</button>
+                <button class="tab-btn" data-tab="afiksoj">Afiksoj</button>
+            </div>
+
+            <div class="tab-content active" id="finaĵoj">
+                <div class="grammar-cards">
+                    <div class="g-card"><span>-O</span> <strong>Substantivo</strong> (Amiko = Friend)</div>
+                    <div class="g-card"><span>-A</span> <strong>Adjektivo</strong> (Amika = Friendly)</div>
+                    <div class="g-card"><span>-E</span> <strong>Adverbo</strong> (Amike = In a friendly way)</div>
+                    <div class="g-card"><span>-J</span> <strong>Pluralo</strong> (Amikoj = Friends)</div>
+                    <div class="g-card"><span>-N</span> <strong>Akuzativo</strong> (Rekta objekto)</div>
+                </div>
+            </div>
+
+            <div class="tab-content" id="verboj">
+                <div class="grammar-cards">
+                    <div class="g-card"><span>-I</span> <strong>Infinitivo</strong> (Lerni)</div>
+                    <div class="g-card"><span>-AS</span> <strong>Presento</strong> (Mi lernas)</div>
+                    <div class="g-card"><span>-IS</span> <strong>Pasinteco</strong> (Mi lernis)</div>
+                    <div class="g-card"><span>-OS</span> <strong>Futuro</strong> (Mi lernos)</div>
+                    <div class="g-card"><span>-US</span> <strong>Kondiĉalo</strong> (Mi lernus)</div>
+                    <div class="g-card"><span>-U</span> <strong>Volitivo / Ordo</strong> (Lernu!)</div>
+                </div>
+            </div>
+
+            <div class="tab-content" id="afiksoj">
+                <div class="grammar-cards">
+                    <div class="g-card"><span>MAL-</span> <strong>Malfavoro / Kontraŭo</strong> (Bona → Malbona)</div>
+                    <div class="g-card"><span>IN-</span> <strong>Ina sekso</strong> (Patro → Patrino)</div>
+                    <div class="g-card"><span>ET-</span> <strong>Malgrandigilo</strong> (Domo → Dometo)</div>
+                    <div class="g-card"><span>EG-</span> <strong>Grandigilo</strong> (Domo → Domego)</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <span class="star-icon">★</span> Esperanto
+            </div>
+            <p>Espero, Paco, kaj Kompreniĝo inter la Popoloj.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
